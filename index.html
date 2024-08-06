@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        background-color: rgb(1, 1, 124);
+        color: white;
+        border: 4px solid rgb(255, 255, 255);
+        
+        
+      }
+      .img img{
+        height: 92.4vh;
+        width: 100%;
+       
+        
+        
+      }
+      .games{
+        position: absolute;
+        top: 120px;
+       
+        display: flex;
+        left: 408px;
+        gap: 127px;
+        
+
+        
+      }
+      .game img{
+            height: 220px;
+            width: 220px;     
+      }
+      
+      
+      .stonePaperScissor img{
+        border-radius: 10px;
+      }
+      .game{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .game span{
+        color: white;
+        background-color: rgb(48, 105, 212);
+        padding: 10px;
+        border-radius: 10px;
+        font-size: larger;
+      }
+      .game span:hover{
+        border: 4px solid rgb(255, 255, 255);
+        cursor: pointer;
+      }
+      .game a{
+        text-decoration: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Games</h1>
+    <div class="img">
+      <img
+        src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+
+      <div class="games">
+        <div class="game ticTacToe">
+          <img src="https://store-images.s-microsoft.com/image/apps.2005.14057826194083709.67242c47-4fd7-4f1a-9dd6-5d93f6cc10df.f80f14c0-72ab-46ff-86cd-9d801c8e04e8?mode=scale&q=90&h=300&w=300" alt="">
+          
+          <a href="tic tac toe project\ticTacToe.html" target="_blank"><span>Tic Tac Toe</span></a>
+        </div>
+        <div class="game stonePaperScissor">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgB1vP0xV57Zexyq5NeGMtdPnMII-MuDJQXg&s" alt="">
+          
+            <a href="stone paper scissor project\stonePaperScissor.html" target="_blank">
+              <span>Stone Paper Scissor
+            </span>
+            </a>
+          
+        </div>
+      </div>
+ 
+   
+      </div>
+    </div>
+  </body>
+</html>
